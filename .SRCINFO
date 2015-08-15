@@ -1,0 +1,24 @@
+pkgbase = gsound-git
+	pkgdesc = GObject library for playing system sounds
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://git.gnome.org/browse/gsound/tree/
+	arch = i686
+	arch = x86_64
+	license = LGPLv2.1+
+	makedepends = vala
+	makedepends = git
+	makedepends = gtk-doc
+	makedepends = gnome-common
+	depends = glib2
+	depends = libcanberra
+	provides = gsound=1.0.1
+	conflicts = gsound
+	replaces = gsound
+	options = !libtool
+	options = !emptydirs
+	source = git://git.gnome.org/gsound
+	sha256sums = SKIP
+
+pkgname = gsound-git
+
